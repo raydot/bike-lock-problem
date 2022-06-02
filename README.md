@@ -1,6 +1,10 @@
 # bike-lock-problem
 I found a bike lock with letters!  Generate a list of valid words that will open the bike lock.  
 
+##
+
+Had a little help getting started from Charlie Axlerod on [Medium](https://medium.com/jsunderthescope/generating-a-list-of-valid-words-in-javascript-efd3955c8912).
+
 ## The Setup
 
 There are 10 letters x four tumblers
@@ -13,8 +17,7 @@ S L E D
 
 P E N S
 
-H Y M N
-
+H Y M Nd
 M H L M
 
 T N R P
