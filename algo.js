@@ -1,6 +1,11 @@
 
-const checkWord = require('check-word')
-const validWordList = checkWord('en')
+// const checkWord = require('check-word')
+// const validWordList = checkWord('en')
+import {words} from 'popular-english-words'
+
+// getMostPopularLength(count, # of letters)
+// Had to bring this down under 1000 to get a list worth considering!
+const popWordList = words.getMostPopularLength(500, 4)
 
 const tumbler1 = "bdfhlmpstw"
 const tumbler2 = "aehilnoruy"
@@ -18,11 +23,12 @@ const generatePermutations = (list1, list2, list3, list4) => {
                 for (let l = 0; l < list4.length; l++) {
                     counter++
                     let temp = `${list1.charAt(i)}` + `${list2.charAt(j)}` + `${list3.charAt(k)}` + `${list4.charAt(l)}`
-                    if (validWordList.check(temp)) outlist.push(temp)
+                    if(popWordList.includes(temp)) outlist.push(temp)
                 }
             }
         }
     }
+    console.log(popWordList)
     console.log("counter:", counter)
     console.log(outlist)
 }

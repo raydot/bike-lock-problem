@@ -7,7 +7,7 @@ Had a little help getting started from Charlie Axlerod on [Medium](https://mediu
 
 ## The Setup
 
-There are 10 letters x four tumblers
+There are 10 letters x four tumblers.
 
 ```
 
@@ -17,7 +17,8 @@ S L E D
 
 P E N S
 
-H Y M Nd
+H Y M N
+
 M H L M
 
 T N R P
@@ -35,3 +36,6 @@ B I K E
 
 This of course doesn't mean the lock owner chose a valid word.  Just seems like the most likely starting point and the more interesting coding challenge.  
 
+## Conclusion
+
+I thought I would get a short handful of candidate words out of this but even with a selection of only the most 500 popular words in the English language it returns more than 200 results!
