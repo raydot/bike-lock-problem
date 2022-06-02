@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/raydot/bike-lock-problem/issues"
   },
-  "homepage": "https://github.com/raydot/bike-lock-problem#readme"
+  "homepage": "https://github.com/raydot/bike-lock-problem#readme",
+  "dependencies": {
+    "check-word": "^1.1.0"
+  }
 }
