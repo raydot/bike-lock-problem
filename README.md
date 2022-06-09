@@ -38,4 +38,4 @@ This of course doesn't mean the lock owner chose a valid word.  Just seems like 
 
 ## Conclusion
 
-I thought I would get a short handful of candidate words out of this but even with a selection of only the most 500 popular words in the English language it returns more than 200 results!
+I thought I would get a short handful of candidate words out of this but even with a selection of only the most 500 popular words in the English language it returns more than 200 results!  Could probably figure out the combo faster by just cycling through all 10K iterations.  Still, it was fun to do!
